@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Header y footer </title>
+</head>
+<body>
+        <div class="contenedor"> 
+            <header> <!-- Encabezadp -->
+				<nav class="main-nav">
+					<a href="index.html"><img class="logo" src="imagenes/musical-notes-outline.svg" width= 70px height= 70px alt="logo musica"></a>
+					<ul class="menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Detalle</a></li>
+						<li><a href="#">Playlist</a></li>
+						<li><a href="#">Generos</a></li>
+						<li><a href="#">Detalle del genero</a></li>
+						<li><a href="#">Resultado de la busqueda</a></li>
+					</ul>
+                                            <!--   revisar el codigo de esta parte  -->
+                    <div> 
+                        <form class="form" action="searchResults.html" method="get">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="searchData" value="">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+			</header>
+            <footer> 
+                <div class="namescontainer">
+                <p class="names"> Agote & Marcó.</p>
+                </div>
+            </footer>
+        </div>
+
+</body>
+</html>
