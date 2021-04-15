@@ -1,0 +1,31 @@
+.contenido { display: flex;
+justify-content: space-between;
+align-items: flex-start;
+overflow: hidden;}
+.nofoto {width: 600px;
+    margin-top: 0px;
+    padding-top: 0px;}
+.foto {width: 600px;
+padding: 10px;
+height: 610px;}
+a { text-decoration: none;
+color: black;}
+.texto {text-align:left;}
+h1 {font-family: 'New Rocker', cursive;
+font-size: 50px;
+margin-top: 0px;}
+p{    
+     font-family: 'Roboto', sans-serif;
+}
+h3 {margin-top: -20px;}
+/* los del segundo trabajo*/
+
+.contenido1 { display: flex;
+    align-items: flex-start;}
+.div2 {margin-left: 50px;}
+
+/* los del tercer trabajo*/
+.contenido2 {display: flex;
+    align-items: flex-start;}
+.imagen3 {padding: 10px 10px 10px 10px ;}
+.claseul{font-size: 30px;}
