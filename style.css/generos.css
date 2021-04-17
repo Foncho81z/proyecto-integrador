@@ -1,0 +1,65 @@
+.generos {
+    display: flex;
+    margin: 2%;
+    gap: 10px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    justify-content: center;
+}
+* {
+    box-sizing: border-box;
+}
+.div {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    gap: 2px;
+    background-color: white;
+    border-radius: 17px;
+    padding: 100px;
+    display: flex;
+    border: solid 3px black;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+}
+p { 
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.bateria1 {
+     margin-left: -60px;
+    padding: -30px;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.genero { 
+    text-decoration: none;
+    color: white;
+}
+#clasica { 
+    background-image: url("https://i1.sndcdn.com/artworks-rWFtyy1S4b5aPnCc-u0kanA-t500x500.jpg");
+}
+#country {
+    background-image: url("https://i.pinimg.com/736x/40/ee/0d/40ee0da17b5d0f7df51a752a3f6976bb.jpg");
+}
+#electronica {
+    background-image: url("https://i1.sndcdn.com/artworks-CN9MzdWfJp0pHsLK-5F9pnA-t500x500.jpg");
+}
+#jazz { 
+    background-image: url("https://jazzhousekids.org/wp-content/uploads/2020/10/Mike-lee-bw-500x500.jpg");
+}
+#pop {
+    background-image: url("https://studiosol-a.akamaihd.net/letras/500x500/fotos/3/b/4/7/3b479ebd133a71174bd1d45bbbcd5af1.jpg");
+}
+#rap {
+    background-image: url("https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1115/2019/10/16080502/tmp5ebfbb13-a68a-4abd-99a0-1c8e657767ee-500x500.jpg");
+}
+#Reggae {background-image: url("https://i1.sndcdn.com/artworks-000073149182-ca8nnk-t500x500.jpg");}
+#reggaeton {background-image: url("https://i.pinimg.com/564x/d5/a3/fe/d5a3fe7b42e847f57b84fe38320e51fb.jpg");}
+#rock {background-image: url("https://invention.si.edu/sites/default/files/styles/story_teaser_image/public/artifacts_invention-of-the-electric-guitar-1997_guitar_heads_square_crop.jpg?itok=ZEE-MaN2");}
+#tango {background-image: url("https://lh3.googleusercontent.com/proxy/5Wc3UCfBIGZSwtGSoSkW3nOvaG0dBQV8iWTcl97zNRmim4RLGHdJJAYXzpGdF13ulTTuQ-NeooUDpKleR9PjfO7f78Ap93jhFETD7P4yldF0SvLFQ7XLGXq_Q9R2xT8GGsJ8DyjpIIWIVblIiCzmFARgB54FQazYaEt7");}
