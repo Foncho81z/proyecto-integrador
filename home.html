@@ -5,69 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="style.css/home.css">
+<link rel="stylesheet" href="style.css/styleheaderyfooter.css">
 </head>
 <body>
-    <main>
+    <div class="contenedor"> 
+        <header> 
+            <nav class="main-nav">
+                <a href=""><img class="logo" src="imagenes/musical-notes-outline.svg" width= 70px height= 70px alt="logo musica"></a>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Detalle</a></li>
+                    <li><a href="#">Playlist</a></li>
+                    <li><a href="#">Generos</a></li>
+                    <li><a href="#">Detalle del genero</a></li>
+                    <li><a href="#">Resultado de la busqueda</a></li>
+                </ul>
+                                        
+                <div> 
+                    <form class="form" action="aca voy a bucar" method="get">
+                        <input type="text" placeholder="Search" name="searchData" value="">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header> 
+    <figure>
+        <img class="bateria" src="https://www.caseyradio.com.au//wp-content/uploads/2020/11/Live-music-1300-x-400.png" alt="bateria">
+    </figure>
+        <main>
         <div class="espacio">
       
         </div>
           
-      <!-- Tendencia en series -->
+      
       <div class="palabra">
-          <h3>PELÍCULAS POPULARES</h3>
+          <h3>CANCIONES</h3>
       </div>   
       
           <section class="peliculaspopulares"><a class="apolaroid" href="detailFilms.html?id=399566"> 
                   <article class="polaroid"> 
-                      <img class="imagen" src="https://image.tmdb.org/t/p/w500//pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"> 
+                      <img class="imagen" src="https://images-na.ssl-images-amazon.com/images/I/51cCvYmITVL._AC_SY741_.jpg"> 
                       
                       <div class="textopolaroid"> 
-                          <p class="textopolaroidtitulo"> Godzilla vs. Kong </p> 
-                          <p class="textopolaroidaño"> 2021-03-24 </p>
+                          <p class="textopolaroidtitulo"> Dont Stop Me Now (1979) </p> 
+                          <p class="textopolaroidaño"> Queen </p>
                    </div></article>
                </a><a class="apolaroid" href="detailFilms.html?id=791373"> 
                   <article class="polaroid"> 
-                      <img class="imagen" src="https://image.tmdb.org/t/p/w500//tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"> 
+                      <img class="imagen" src="https://m.media-amazon.com/images/I/51TVuXEz12L._AC_.jpg"> 
                       
                       <div class="textopolaroid"> 
-                          <p class="textopolaroidtitulo"> Zack Snyder's Justice League </p> 
-                          <p class="textopolaroidaño"> 2021-03-18 </p>
+                          <p class="textopolaroidtitulo"> Take Me Home (1971) </p> 
+                          <p class="textopolaroidaño"> John Denver </p>
                    </div></article>
                </a><a class="apolaroid" href="detailFilms.html?id=412656"> 
                   <article class="polaroid"> 
-                      <img class="imagen" src="https://image.tmdb.org/t/p/w500//9kg73Mg8WJKlB9Y2SAJzeDKAnuB.jpg"> 
+                      <img class="imagen" src="data:image/jpeg;base64,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"> 
                       
                       <div class="textopolaroid"> 
-                          <p class="textopolaroidtitulo"> Chaos Walking </p> 
-                          <p class="textopolaroidaño"> 2021-02-24 </p>
+                          <p class="textopolaroidtitulo"> Llamado De Emergencia (2008) </p> 
+                          <p class="textopolaroidaño"> Daddy Yankee </p>
                    </div></article>
                </a><a class="apolaroid" href="detailFilms.html?id=527774"> 
                   <article class="polaroid"> 
-                      <img class="imagen" src="https://image.tmdb.org/t/p/w500//lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg"> 
+                      <img class="imagen" src="https://cdn.europosters.eu/image/750/posters/bob-marley-one-love-i61137.jpg"> 
                       
                       <div class="textopolaroid"> 
-                          <p class="textopolaroidtitulo"> Raya and the Last Dragon </p> 
-                          <p class="textopolaroidaño"> 2021-03-03 </p>
+                          <p class="textopolaroidtitulo"> Jamming (1977) </p> 
+                          <p class="textopolaroidaño"> Bob Marley </p>
                    </div></article>
                </a><a class="apolaroid" href="detailFilms.html?id=460465"> 
                   <article class="polaroid"> 
-                      <img class="imagen" src="https://image.tmdb.org/t/p/w500//8yhtzsbBExY8mUct2GOk4LDDuGH.jpg"> 
+                      <img class="imagen" src="https://images-na.ssl-images-amazon.com/images/I/51JV31nl73L._AC_.jpg"> 
                       
                       <div class="textopolaroid"> 
-                          <p class="textopolaroidtitulo"> Mortal Kombat </p> 
-                          <p class="textopolaroidaño"> 2021-04-07 </p>
+                          <p class="textopolaroidtitulo"> Titanium (2011) </p> 
+                          <p class="textopolaroidaño"> David Guetta </p>
                    </div></article>
-               </a><a class="apolaroid" href="detailFilms.html?id=544401"> 
-                  <article class="polaroid"> 
-                      <img class="imagen" src="https://image.tmdb.org/t/p/w500//pwDvkDyaHEU9V7cApQhbcSJMG1w.jpg"> 
-                      
-                      <div class="textopolaroid"> 
-                          <p class="textopolaroidtitulo"> Cherry </p> 
-                          <p class="textopolaroidaño"> 2021-02-26 </p>
-                   </div></article>
+
                </a></section>
           
-          <!-- Series populares -->
+          
           <div class="palabra">
               <h3>SERIES POPULARES</h3>
           </div>
@@ -112,17 +131,11 @@
                                <p class="textopolaroidtitulo"> Riverdale </p> 
                               <p class="textopolaroidaño"> 2017-01-26 </p>
                   </div></article>
-              </a><a class="apolaroid" href="detailSeries.html?id=1416"> 
-                  <article class="polaroid"> 
-                       <img class="imagen" src="https://image.tmdb.org/t/p/w500//clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg"> 
-                  
-                        <div class="textopolaroid"> 
-                               <p class="textopolaroidtitulo"> Grey's Anatomy </p> 
-                              <p class="textopolaroidaño"> 2005-03-27 </p>
-                  </div></article>
+              
+              
               </a></section>
           
-          <!-- Tendencia en películas -->
+          
           <div class="palabra">
             <h3>TOP RATED</h3>
           </div>
@@ -167,16 +180,16 @@
                              <p class="textopolaroidtitulo"> Gabriel's Inferno Part III </p> 
                                <p class="textopolaroidaño"> 2020-11-19 </p>
                   </div></article>
-              </a><a class="apolaroid" href="detailFilms.html?id=696374">
-                  <article class="polaroid"> 
-                       <img class="imagen" src="https://image.tmdb.org/t/p/w500//oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg"> 
-                  
-                       <div class="textopolaroid"> 
-                             <p class="textopolaroidtitulo"> Gabriel's Inferno </p> 
-                               <p class="textopolaroidaño"> 2020-05-29 </p>
-                  </div></article>
+             
               </a></section>
       </main>
+      <footer> 
+        <div class="namescontainer">
+        <p class="names"> Agote & Marcó. Todos los derechos reservados</p>
+        </div>
+    </footer>
+</div>
+
 </body>
 </html>
 
