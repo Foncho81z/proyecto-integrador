@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css/searchresults.css">
     <title>Search results</title>
 <link rel="stylesheet" href="style.css/styleheaderyfooter.css">
 <link rel="stylesheet" href="style.css/detalles.css">
@@ -14,13 +17,13 @@
             <a href="home.html"><img class="logo" src="imagenes/musical-notes-outline.svg" width= 70px height= 70px alt="logo musica"></a>
             <ul class="menu">
                 <li><a href="home.html">Home</a></li>
-                <li><a href="">Playlist</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
                 <li><a href="generos.html">Generos</a></li>
                 <li><a href="detallesdelgenero.html">Detalle de los géneros</a></li>
             </ul>
             <div> 
-                <form class="form" action="aca voy a bucar" method="get">
-                    <input type="text" placeholder="Search" name="searchData" value="">
+                <form class="form" action="search-results.html" method="GET">
+                    <input type="text" placeholder="Search" name="searchData" value="Queen">
                     <button type="submit">Search</button>
                 </form>
             </div>
@@ -43,8 +46,12 @@
                 </form id="playlist">               
             </p> 
             <br>
-            <h3 id="holis">Si te intereso esto tambien te puede interesar <a href="detail-album.html#albumjazz">Jazz</a> </h3>
          </div>
+         <h2> Si te intereso esto tambien te puede interesar: </h2>
+         <ul type="bullet"> 
+             <li> <a class="margin" href="detail-album.html#albumjazz"> El album de Queen <i> Jazz</i></a></li>
+             <li> <a class="margin" href="detallesdelgenero.html#rock"> El género de música <i>Rock</i> </a></li>
+         </ul>
     </main>
     <footer> 
         <div class="namescontainer">
