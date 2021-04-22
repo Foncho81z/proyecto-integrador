@@ -7,7 +7,7 @@ html, body {
 .articles {display: flex;
 flex-wrap: wrap;
 justify-content: center;
-font-family: 'Roboto', sans-serif}
+font-family: 'Roboto', sans-serif;}
 .tucson {margin: 5px;
     border: solid 2px black;
     justify-content: center;
@@ -21,4 +21,8 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
+}
+.cambiandomedidas {
+    height: 350px;
+    width: 280px;
 }
