@@ -26,3 +26,8 @@ h2 {
     height: 350px;
     width: 280px;
 }
+@media (max-width: 420px){
+.bateria2{
+    display: none;}
+}
+

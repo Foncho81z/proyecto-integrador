@@ -11,3 +11,32 @@ h2 {
     margin-left: -450px;
     font-size: 20px;
 }
+@media (max-width: 420px){
+.foto {
+    display: none;
+}
+
+.nofoto{
+    flex-wrap: wrap;
+}
+.video{
+    height: 300px;
+width: 404px;
+}
+#teo{
+    display: none;
+}
+#hh {
+    text-align: center;
+}
+#hhh{
+    text-align: center;
+}
+#hhhh{
+    text-align: center;
+}
+.messi{
+display: none;    
+}
+}
+
