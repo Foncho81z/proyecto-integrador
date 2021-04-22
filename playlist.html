@@ -4,10 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/styleheaderyfooter.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css/playlist.css">
     <title>Playlist</title>
 </head>
 <body>
-    <!-- Es la página a donde el usuario podrá ver la lista de canciones que marcó como favoritas.
--->
+    <div class="contenedor"> 
+        <header> <!-- Encabezad -->
+            <nav class="main-nav">
+                <a href="home.html"><img class="logo" src="imagenes/musical-notes-outline.svg" width= 70px height= 70px alt="logo musica"></a>
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="">Playlist</a></li>
+                    <li><a href="generos.html">Generos</a></li>
+                    <li><a href="detallesdelgenero.html">Detalle de los géneros</a></li>
+                </ul>
+                <div> 
+                    <form class="form" action="aca voy a bucar" method="get">
+                        <input type="text" placeholder="Search" name="searchData" value="">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <figure> 
+            <img class="bateria2" src="https://www.caseyradio.com.au//wp-content/uploads/2020/11/Live-music-1300-x-400.png" alt="Imagen principal de la página" width="1300px" height="400px">
+        </figure>
+        <main>
+            <h1>
+                Mi Playlist Personal
+            </h1>
+            <h2> Canciones</h2>                
+            <article class="articles">
+                <div class="tucson">
+                    <h2> Don´t Stop Me Now</h2>
+                    <a href="detallesdelgenero.html#dontstopme">
+                        <img class="cambiandomedidas" src="https://s-media-cache-ak0.pinimg.com/564x/0f/45/b7/0f45b78243ee9ab3802a635522f36adc.jpg" alt="Foto de Don´t Stop Me Now">
+                    </a>
+                </div>
+                <div class="tucson"> 
+                    <h2> Country Roads</h2>
+                    <a href="detail-track.html#johndenver">
+                        <img class="cambiandomedidas" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ut9D2QUTsPeaxRyR7qq9H9aaOV-ctJP_LQ&usqp=CAU" alt="Foto de Country Roads">
+                    </a>
+                </div>
+            </article>
+            <article>
+                <h2> Artistas</h2>                
+            <article class="articles">
+                <div class="tucson">
+                    <h2> Queen </h2>
+                    <a href="detail-artist.html#queen">
+                        <img class="cambiandomedidas" src="http://images5.fanpop.com/image/photos/31100000/Queen-music-31197042-500-500.jpg" alt="Foto de Queen">
+                    </a>
+                </div>
+                <div class="tucson"> 
+                    <h2> Daddy Yankee</h2>
+                    <a href="detail-artist.html#daddy">
+                        <img class="cambiandomedidas" src="https://cdns-images.dzcdn.net/images/artist/5f45206580cde1388f71ccc7f8226768/500x500.jpg" alt="Foto de Daddy Yankee">
+                    </a>
+                </div>
+            </article>
+            <article>
+                <h2> Albumes</h2>                
+            <article class="articles">
+                <div class="tucson">
+                    <h2> Jazz </h2>
+                    <a href="detail-album.html">
+                        <img class="cambiandomedidas" src="https://cdns-images.dzcdn.net/images/cover/fb22a75aa1aafc992230abd0bd79faef/500x500.jpg" alt="Foto de jazz">
+                    </a>
+                </div>
+                <div class="tucson"> 
+                    <h2> Exodus</h2>
+                    <a href="detail-album.html#exodus">
+                        <img class="cambiandomedidas" src="https://direct.rhapsody.com/imageserver/images/alb.487031789/500x500.jpg" alt="Foto de Exodus">
+                    </a>
+                </div>
+            </article>
+            <article>
+                <h2> Géneros</h2>                
+                <article class="articles">
+                    <div class="tucson">
+                        <h2> Rock</h2>
+                        <a href="detallesdelgenero.html#rock">
+                            <img class="cambiandomedidas" src="https://5.imimg.com/data5/TN/AE/LZ/SELLER-81945459/electric-guitar-500x500.jpg" alt="Foto de guitarra electrica">    
+                        </a>
+                    </div>
+                    <div class="tucson"> 
+                        <h2> Reggae</h2>
+                        <a href="detallesdelgenero.html#Reggae"> 
+                            <img class="cambiandomedidas" src="https://i1.sndcdn.com/artworks-000047622412-z81n4o-t500x500.jpg" alt="Foto de Bob Marley">    
+                        </a>
+                    </div>
+        </main>
 </body>
 </html>

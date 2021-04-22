@@ -1,0 +1,32 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.bateria2 {
+    margin-left: -60px;}
+h1 {
+    font-family: 'Merriweather', serif;    
+    font-size: 50px;
+    font-weight: bold;
+    }
+h2 { 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.bateria2 {
+    margin-left: -60px;}
+.articles {display: flex;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+justify-content: space-evenly;}
+.tucson {margin: 5px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;}
+.cambiandomedidas {
+        height: 500px;
+        width: 500px;
+    }
