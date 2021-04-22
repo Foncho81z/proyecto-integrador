@@ -4,13 +4,13 @@ html, body {
     overflow-x: hidden;
 
 }
-.peliculaspopulares {
+.canciones {
     display: flex;
 }
-.seriespopulares {
+.albums {
     display: flex;
 }
-.toprated {
+.artistas {
     display: flex;
 }
 .polaroid {
