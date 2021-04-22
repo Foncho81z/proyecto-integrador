@@ -55,13 +55,32 @@ header{
 .main-nav li {
 	margin-right: 90px;
 }
-.main-nav li a:hover{
-	text-decoration: underline;
-}
 /* Footer */ 
 .namescontainer {
     display: flex;
     justify-content: center;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 420px) {
+    .main-nav { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 18px;
+        margin-top: 10px;
+        margin-right: -3px;
+
+        
+    }
+    .main-nav li {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 18px;
+        margin-top: 15px;
+        
+    }
+    header { width: 100%;}
+    .bateria {display: none;}
+    #detalledelosgeneros {margin-left: -25px;}
 }

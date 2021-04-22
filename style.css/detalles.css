@@ -37,3 +37,45 @@
     .holis{
         text-align: left;
     }
+    @media (max-width: 420px) {
+        .foto {width: 400px;}
+        .nofoto {width: 380px;}
+        h1 {
+            text-align: center;
+        }
+        .texto { text-align: center;
+        margin-left: 14px;}
+        h3 { text-align: center;}
+        iframe {
+            width: 400px
+        }
+        button {margin-left: 28px;
+        }
+        #botonform {margin-left: 0px;}
+        /* de aca para abajo album (arriba era canciones)*/
+        #foto2{
+            width: 400px;
+        }
+        .div2 {width: 380px;
+        margin-left: 0px;}
+        .contenidoalbum {display: flex;
+        flex-wrap: wrap;}
+        .botonalbum {margin-left: 30px;}
+        .playlist {margin-bottom: 15px;}
+        }
+        /* De aca para abajo, detail artist.*/
+        .imagen3 {width: 400px;}
+        .contenido2 {
+            width: 380px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .sinfoto {
+            margin-left: 60px;
+        }
+        #queenfuncionamal {margin-left: 95px;
+        }
+        #bobtambien {
+            margin-left: 75px;
+        }

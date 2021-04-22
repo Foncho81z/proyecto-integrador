@@ -17,7 +17,7 @@ html, body {
     background-image: url(../Images/Logos/img-textura.png);
     background-size: cover;
     border-radius: 15px;
-    height: 480px; ;
+    height: 480px;
     width: 230px;
     flex-wrap:wrap;
     box-sizing: border-box;
@@ -50,8 +50,6 @@ body {
 html {
     font-family: sans-serif;
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
 }
 .bateria {
 height: 400px;
@@ -60,4 +58,33 @@ margin-left: -60px;
 }
 h3 {
     text-transform: uppercase;
+}
+@media (max-width: 420px) {
+    html, body {
+        max-width: 100%;
+        overflow-x:auto;
+    }
+    .canciones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .albums {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .artistas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .polaroid {
+         height: 500px;
+         width: 285px;
+     }
+     img{
+         height: 400px;
+         width: 285px;
+     }
 }
