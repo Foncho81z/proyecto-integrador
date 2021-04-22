@@ -5,14 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search results</title>
+<link rel="stylesheet" href="style.css/styleheaderyfooter.css">
+<link rel="stylesheet" href="style.css/detalles.css">
 </head>
 <body>
-    <!--Es la página donde el usuario podrá ver los resultados de la búsqueda que generó en el buscador que se encuentra en Header.
-La página deberá mostrar:
-El término buscado (por el momento ese datos estará fijo).
-La lista de resultados que coincidan con el término buscado.
-Los elementos de la lista que coincidan con páginas del sitio deberán ser hipervínculos a las páginas. Por ejemplo: el resultado de un artista deberá llevar al detalle del artista; el resultado de un álbum deberá llevar al detalle del álbum.
-Incluir una leyenda avisando al usuario para el caso de no haber datos coincidentes con el término buscado.
--->
+    <header> <!-- Encabezad -->
+        <nav class="main-nav">
+            <a href="home.html"><img class="logo" src="imagenes/musical-notes-outline.svg" width= 70px height= 70px alt="logo musica"></a>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="">Playlist</a></li>
+                <li><a href="generos.html">Generos</a></li>
+                <li><a href="detallesdelgenero.html">Detalle de los géneros</a></li>
+            </ul>
+            <div> 
+                <form class="form" action="aca voy a bucar" method="get">
+                    <input type="text" placeholder="Search" name="searchData" value="">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+<main>
+    <div class="contenido1">   
+        <div>             
+            <img class="foto" src="https://img.discogs.com/w_DnH76raqBFyUTQmYBY7FZihfo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-616893-1432929131-8468.jpeg.jpg" alt="Foto del disco al que pertenece el album">
+        </div>
+        <div class="nofoto"> 
+            <h1 id="dontstopme">Don´t Stop Me Now</h1>
+            <h3> por Queen</h3>
+            <p class="texto"> Esta canción, perteneciente al albúm <strong> Jazz </strong> habla de regalarse los mejores momentos posibles, de disfrutar de la vida, de olvidarse de todo lo que podría pegarte al suelo y de creer que puedes volar y tocar las estrellas. La canción también habla de un hombre decidido a pasar una noche salvaje de todas las maneras que se le ocurran, e invitando al resto a acompañarle o a quitarse de en medio. (Storyofsong.com)</p>
+            <iframe width="512" height="384" src="https://www.youtube.com/embed/HgzGwKwLmgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- player-->
+            <!-- Agregar la cancion a mi playlist-->
+            <p class="clasealineada"> 
+                <form class="playlist" action="#playlist" method="get">
+                    <button type="submit">Agregar a mi playlist. </button> <a style="white-space:pre" href="#playlist"> <strong>  Ver my playlist personal </strong></a> 
+                </form id="playlist">               
+            </p> 
+            <br>
+            <h3 id="holis">Si te intereso esto tambien te puede interesar <a href="detail-album.html#albumjazz">Jazz</a> </h3>
+         </div>
+    </main>
+    <footer> 
+        <div class="namescontainer">
+        <p class="names"> Agote & Marcó. Todos los derechos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>

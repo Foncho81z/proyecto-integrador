@@ -2,7 +2,6 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-
 }
 .canciones {
     display: flex;
@@ -14,7 +13,7 @@ html, body {
     display: flex;
 }
 .polaroid {
-   background-color: chartreuse;
+   background-color: rgb(255, 123, 0);
     background-image: url(../Images/Logos/img-textura.png);
     background-size: cover;
     border-radius: 15px;
