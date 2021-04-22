@@ -42,23 +42,22 @@ header{
 .main-nav .form{
     display: flex;
     justify-content: flex-end;
-    padding-right: 82px;
+    padding-right: 10px;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
 }
 .logo {
-	margin-left: 15px;
-    margin-right: 15px;
+	margin-left: 45px;
+    margin-right: 70px;
     width: 70px;
     height: 70px;
 }
 .main-nav li {
-	margin-right: 30px;
+	margin-right: 90px;
 }
 .main-nav li a:hover{
 	text-decoration: underline;
 }
-
 /* Footer */ 
 .namescontainer {
     display: flex;
