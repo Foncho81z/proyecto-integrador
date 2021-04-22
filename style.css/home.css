@@ -27,7 +27,7 @@ html, body {
 }
 img{
     height: 400px;
-width: 250px;
+    width: 250px;
 }
 article {
     display: block;
@@ -58,4 +58,7 @@ html {
 .bateria {
     height: 400px;
 width: 1300px;
+}
+h3 {
+    text-transform: uppercase;
 }
