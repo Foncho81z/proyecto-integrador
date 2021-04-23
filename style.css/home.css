@@ -65,10 +65,6 @@ h3 {
     text-transform: uppercase;
 }
 @media (max-width: 420px) {
-    html, body {
-        max-width: 100%;
-        overflow-x:auto;
-    }
     .canciones {
         display: flex;
         flex-wrap: wrap;

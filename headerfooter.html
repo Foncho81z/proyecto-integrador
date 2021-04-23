@@ -10,28 +10,29 @@
     <title>Header y footer </title>
 </head>
 <body>  
-        <header> <!-- Encabezad -->
-            <nav class="main-nav">
-                <a href=""><img class="logo" src="imagenes/musical-notes-outline.svg" width= 70px height= 70px alt="logo musica"></a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Playlist</a></li>
-                    <li><a href="#">Generos</a></li>
-                    <li><a href="#">Detalle de los géneros</a></li>
-                </ul>
-                                        <!--   revisar el codigo de esta parte  -->
-                <div> 
-                    <form class="form" action="aca voy a bucar" method="get">
-                        <input type="text" placeholder="Search" name="searchData" value="">
-                        <button type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-        </header>
-        <footer> 
-            <div class="namescontainer">
-            <p class="names"> Agote & Marcó. Todos los derechos reservados</p>
+    <header> <!-- Encabezado -->
+        <nav class="main-nav">
+            <a href="home.html"> 
+                <img class="logo" src="imagenes/musical-notes-outline.svg" width= 70px height= 70px alt="logo musica">
+            </a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Playlist</a></li>
+                <li><a href="#">Generos</a></li>
+                <li><a href="#">Detalle de los géneros</a></li>
+            </ul>
+            <div> 
+                <form class="form" action="search-results.html" method="GET">
+                    <input type="text" placeholder="Search" name="searchData" value="Queen">
+                    <button type="submit">Search</button>
+                </form>
             </div>
-        </footer>
+        </nav>
+    </header>
+    <footer> 
+        <div class="namescontainer">
+            <p> Agote & Marcó. Todos los derechos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
